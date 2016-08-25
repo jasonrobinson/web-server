@@ -24,7 +24,7 @@ app.use(middleware.logger);
 
 // for route level
 app.get('/about', middleware.requireAuthentication, function (req, res) {
-    res.send('About Us');
+    res.send('About Us!');
 });
 
 // to get public pages in app
